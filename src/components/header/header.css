@@ -1,10 +1,15 @@
 .header {
     background-color: #2c323c;
-    background-image: url(https://d33wubrfki0l68.cloudfront.net/4de356f6ddb204ae047d4fe8bfadd690d4d0b2fe/00972/assets/images/geometry.svg);
-    background-repeat: repeat;
+    /* background-image: url(https://d33wubrfki0l68.cloudfront.net/4de356f6ddb204ae047d4fe8bfadd690d4d0b2fe/00972/assets/images/geometry.svg); */
+    background-image: url("got.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-repeat: repeat; */
     color: #fff;
     padding: 140px 20px;
-    padding-bottom: 10px;
+    padding-bottom: 400px;
     text-align: center;
 }
 
@@ -21,6 +26,7 @@ h1 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    color: rgba(36, 36, 56, 0.52);
 }
 
 h2 {
@@ -31,4 +37,5 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    color: rgba(36, 36, 56, 0.52);
 }
