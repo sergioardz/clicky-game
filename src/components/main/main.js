@@ -2,26 +2,11 @@ import React from "react";
 import "./main.css";
 
 const Main = props => (
-    <main className="container">
-        <div className="row">
-            <div className="col"><img alt="" src="https://via.placeholder.com/170"/></div>
-            <div className="col"><img alt="" src="https://via.placeholder.com/170"/></div>
-            <div className="col"><img alt="" src="https://via.placeholder.com/170"/></div>
-            <div className="col"><img alt="" src="https://via.placeholder.com/170"/></div>
+        <div className="card" onClick={props.imageClick}>
+            <div className="img-container">
+                <img alt={props.image.replace(".jpg", "")} src={require("../../images/" + props.image)} width={"220px"} height={"150px"}/>
+            </div>
         </div>
-        <div className="row">
-            <div className="col"><img alt="" src="https://via.placeholder.com/170"/></div>
-            <div className="col"><img alt="" src="https://via.placeholder.com/170"/></div>
-            <div className="col"><img alt="" src="https://via.placeholder.com/170"/></div>
-            <div className="col"><img alt="" src="https://via.placeholder.com/170"/></div>
-        </div>
-        <div className="row">
-            <div className="col"><img alt="" src="https://via.placeholder.com/170"/></div>
-            <div className="col"><img alt="" src="https://via.placeholder.com/170"/></div>
-            <div className="col"><img alt="" src="https://via.placeholder.com/170"/></div>
-            <div className="col"><img alt="" src="https://via.placeholder.com/170"/></div>
-        </div>
-    </main>
 );
 
 export default Main;

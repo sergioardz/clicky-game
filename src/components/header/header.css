@@ -3,9 +3,8 @@
     background-image: url(https://d33wubrfki0l68.cloudfront.net/4de356f6ddb204ae047d4fe8bfadd690d4d0b2fe/00972/assets/images/geometry.svg);
     background-repeat: repeat;
     color: #fff;
-    min-height: 400px;
     padding: 140px 20px;
-    padding-bottom: 140px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
