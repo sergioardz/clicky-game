@@ -1,29 +1,31 @@
 # Project Title
 
-Title
+Clicky Game
 
 ## Screenshots / Demo
-
-![Displayed Text](hyperlinkofimgorgif "Text above image")
+Demo 1
+![Demo 1](Demo1.png "Clicky Game")
+Demo 2
+![Demo 2](Demo2.png "Clicky Game")
 
 ## What the project does
 
-Insert details here.
+A memory game that keeps track of how the user clicks on 12 different images without repetition BUT, at the same time dealing with the images being re-arranged on every click. Scores are tracked so the user can always see their improvement. If the user hits an image twice: game is over and reset to try again.
 
 ## Why the project is useful
 
-Insert details here.
+In times where Technology seems to facilitate too much on our lives, this is a fun way to work on our memory skills.
 
 ## How does it works
 
-Insert details here.
+It is fairly easy, just go ahead and click the images -ONLY ONCE- and see how good you are at it.
 
 ## How can I use it
 
 There are two ways to test this:
 
-* The easy way: just go to the app page and test it [Link text](hyperlink)
-* The not that easy way: you would need to clone/download the repository and install the necessary dependencies with the command “npm install” and do not forget about the DB settings.
+* The easy way: just go to the app page and test it [Link text](hyperlink).
+* The not that easy way: you would need to clone/download the repository and install the necessary dependencies with the command “npm install”.
 
 ## Where users can get help with your project - Built With:
 
@@ -44,7 +46,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## URLS
 
-* [Github project](hyperlink)
+* [Github project](https://github.com/sergioardz/clicky-game)
 * [Heroku project](hyperlink)
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

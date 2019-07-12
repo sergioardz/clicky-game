@@ -18,13 +18,13 @@ class App extends Component {
   componentDidMount() {
   }
 
-
+  // When an image is clicked the alt property is captured and stored in an array and away from the main array
   imageClick = event => {
     const currentChar = event.target.alt;
     const CharAlreadyClicked =
       this.state.clickedChar.indexOf(currentChar) > -1;
 
-
+    // When an image that has already been clicked is hit again: the game is over, reset and the images re-ordered
     if (CharAlreadyClicked) {
       this.setState({
         char: this.state.char.sort(function(a, b) {
@@ -36,6 +36,7 @@ class App extends Component {
         score: 0
       });
 
+    // When a valid image is clicked the scores are updated and the images re-oredered
     } else {
       this.setState(
         {
@@ -49,6 +50,7 @@ class App extends Component {
           score: this.state.score + 1
         },
 
+        // If the game continues until clicling on all 12 images without repeating any: a win message is displayed and the game resets
         () => {
           if (this.state.score === 12) {
 
